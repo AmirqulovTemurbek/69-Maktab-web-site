@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.container{
+  h4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    a{
+      color: #8F939B;
+      list-style: none;
+      text-decoration: none;
+    }
+    span{
+      margin-left: 5px;
+      color: #0075FF;
+    }
+  }
+  .col-12{
+    .row{
+      display: flex;
+      .hodimlar{
+        width: 308px;
+        height: 460px;
+        background: #f0f8ff;
+        .navbar-nav{
+          margin-top: 45px;
+          .nav-item{
+            margin-top: 5px;
+            margin-left: 20px;
+            .nav-link{
+              display: flex;
+              align-items: center;
+              width: 251px;
+              height: 60px;
+              font-family: 'Work Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 20px;
+              text-transform: uppercase;
+              color: #1D4573;
+              letter-spacing: 2px;
+              padding-left: 30px;
+            }
+            .nav-link:hover{
+              display: flex;
+              align-items: center;
+              width: 251px;
+              height: 60px;
+              background: #dceefe;
+              border-radius: 50px;
+              outline: none;
+              color: #0075FF;
+              letter-spacing: 2px;
+              border-radius: 50px;
+              cursor: pointer;
+              overflow: hidden;
+            }
+          }
+        }
+
+      }
+      .ruyxat{
+        .direktor{
+          h2{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            color: #1D4573;
+          }
+          img{
+            width: 195px;
+            height: 225px;
+          }
+          div{
+            h5{
+              font-family: 'Work Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              text-align: center;
+              width: 148px;
+              height: 38px;
+              text-transform: capitalize;
+              color: #000000;
+              margin-left: 20px;
+            }
+          }
+        }
+        .zauchlar{
+          h2{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            color: #1D4573;
+          }
+          .col-12{
+            display: flex;
+
+            .row{
+              display: flex;
+            }
+          }
+        }
+        .oqituvchilar{
+          h2{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            color: #1D4573;
+          }
+          .col-12{
+            .row{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .col-3{
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container{
+  margin-top: 15px;
+  .first{
+    display: flex;
+    .left{
+      display: flex;
+      .gerb{
+        width: 52px;
+        height: 52px;
+      }
+      .flag_line{
+        width: 3px;
+        height: 52px;
+      }
+      h1{
+        width: 270px;
+        height: 50px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18.5804px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #1D4573;
+      }
+    }
+    .right{
+      position: relative;
+      float: right;
+      .uzb{
+        width: 25px;
+        height: 16px;
+      }
+      .gerb_icon{
+        width: 21px;
+        height: 21px;
+      }
+      .music{
+        width: 18px;
+        height: 19px;
+      }
+      .ozbek{
+        background: #F2F5F9;
+        border-radius: 50px;
+        width: 105px;
+        height: 40px;
+        .mikrofon{
+          height: 17px;
+          width: 15px;
+        }
+      }
+      .number{
+        background: #F2F5F9;
+        border-radius: 50px;
+        width: 149px;
+        height: 40px;
+      }
+    }
+  }
+
+  .second{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 20px;
+          text-transform: uppercase;
+          color: #1D4573;
+          margin-left: 50px;
+        }
+      }
+    }
+    .btn{
+      width: 195px;
+      height: 50px;
+      background: #0075FF;
+      border-radius: 54px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.yangiliklar{
+  h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #1D4573;
+  }
+}
